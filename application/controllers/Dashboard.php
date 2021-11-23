@@ -125,8 +125,9 @@ public function index(){
     }  
 
     public function patient_login(){
-
+        
         if($this->session->userdata('isLogIn_patient')) 
+        
             $this->redirectTo($this->session->userdata('user_role'));
 
         $this->form_validation->set_rules('email', display('email'),'required|max_length[50]|valid_email');
@@ -226,7 +227,7 @@ public function index(){
                     redirect('dashboard/home');
                 break; 
             case 10:
-                    redirect('dashboard_patient/home');
+                    redirect('/');
                 break; 
             //if $user_role is not set 
             //then redirect to login

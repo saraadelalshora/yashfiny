@@ -167,12 +167,18 @@ $settings = $this->db->select("language")->get('setting')->row();
               <div class="col-md-3 btns-log-reg">
 
                 <ul class="navbar-nav m0l-auto">
+                <?php  if(!$this->session->userdata('user_id')){ ?>
                     <ul class="text-center list-unstyled">
                           <li><a href="<?=base_url("registration");?>" class="btn btn-primary"><?=display('registration');?></a>  </li>
                     </ul>
                     <ul class="text-center list-unstyled">
                         <li>  <a href="<?=base_url("patient_login");?>" class="btn btn-secondary"> <?=display('login');?></a>  </li>
                     </ul>
+                    <?php }else{ ?>
+                        <ul class="nav-item nav-btn">
+                        <li>  <a href="#" class="nav-link js-scroll-trigger"> <?= 'Wellcome '.$this->session->userdata('fullname')?></a>  </li>
+                    </ul>
+                        <?php } ?>   
                     <!-- <li class="nav-item nav-btn">
                         <a class="nav-link js-scroll-trigger" href="<?= base_url()?>#appointment-form"><i class="icon-calendar"></i><?= display('appointment')?></a>
                     </li> -->
