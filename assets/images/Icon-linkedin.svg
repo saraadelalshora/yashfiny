@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+  <g id="Icon-linkedin" transform="translate(-177 -5100)">
+    <rect id="Rectangle_8" data-name="Rectangle 8" width="34" height="34" rx="2" transform="translate(177 5100)" fill="#2196f3"/>
+    <g id="linkedin" transform="translate(184.001 5106.989)">
+      <circle id="Ellipse_25" data-name="Ellipse 25" cx="2.5" cy="2.5" r="2.5" transform="translate(0.007 0.011)" fill="#fff"/>
+      <path id="Path_7" data-name="Path 7" d="M.417,170.667h4.17a.417.417,0,0,1,.417.417v12.509a.417.417,0,0,1-.417.417H.417A.417.417,0,0,1,0,183.593V171.084A.417.417,0,0,1,.417,170.667Z" transform="translate(-0.001 -163.987)" fill="#fff"/>
+      <path id="Path_8" data-name="Path 8" d="M181.007,150.023a6.338,6.338,0,0,0-5.349.887.417.417,0,0,0-.405-.314h-4.17a.417.417,0,0,0-.417.417v12.509a.417.417,0,0,0,.417.417h4.17a.417.417,0,0,0,.417-.417v-8.99a2.19,2.19,0,0,1,2.252-.464,1.962,1.962,0,0,1,1.084,1.948v7.505a.417.417,0,0,0,.417.417h4.17a.417.417,0,0,0,.417-.417v-8.345C183.961,151.751,182.349,150.483,181.007,150.023Z" transform="translate(-163.995 -143.917)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

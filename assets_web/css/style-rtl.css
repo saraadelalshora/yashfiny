@@ -1,0 +1,136 @@
+
+/*****************************************/
+
+.mr-40{
+  margin-right:40px;
+}
+.mr-30{
+  margin-right:30px;
+}
+
+
+
+/*  ****************************/
+.navbar{
+  direction: rtl;
+}
+
+.mr-auto, .mx-auto {
+    margin-left: auto!important;
+}
+
+.ml-auto, .mx-auto {
+  margin-left: auto!important;
+}
+
+.main-footer{
+  direction: rtl;
+  padding: 25px 0;
+  text-align: right;
+}
+
+dl, ol, ul{
+  display: inline;
+}
+
+.list-unstyled{
+  padding-right: 0;
+  /* display: grid; */
+}
+.footer-link{
+  font-weight: 900;
+  display: grid;
+}
+
+.about-wrapper{
+     direction: inherit;
+
+}
+.btnBlock {
+      -webkit-writing-mode: vertical-lr;
+}
+.coptText{
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.language{
+  /* margin-top: 15px; */
+  direction: ltr;
+
+}
+.main-logo{
+  direction: rtl;
+  text-align: right;
+}
+
+.tex-reservation{
+  text-align: right;
+}
+
+.centered-department a{
+  margin-right: 5px;
+}
+.text-block .text-right{
+   direction: rtl;
+}
+
+.form-inline {
+  direction: rtl;
+}
+.drtailsText {
+    text-align: right;
+    direction: rtl;
+}
+.contentTitle{
+  text-align: right;
+  direction: rtl;
+}
+.textContent{
+  text-align: right;
+  direction: rtl;
+}
+.read-more{
+     color: #18489b;
+}
+.grid-content .img-link{
+  text-align: center;
+}
+.socialShare{
+  direction: rtl;
+}
+
+.contact-form{
+  text-align: right;
+  direction: rtl;
+}
+
+.contact-us-title h2{
+text-align: right;
+direction: rtl;
+}
+.contect-des{
+  text-align: right;
+  direction: rtl;
+}
+.sidebar{
+direction: ltr;
+text-align: right;
+}
+.form-control{
+  text-align: right;
+  direction: rtl;
+}
+.headding-text{
+direction: rtl;
+}
+.life-wrapper{
+  direction: ltr;
+}
+.text-block .heading-lg-colored {
+text-align: right;
+}
+
+.text-block .heading-lg{
+  text-align: right;
+}
